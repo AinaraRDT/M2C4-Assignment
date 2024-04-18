@@ -16,7 +16,8 @@ total_students_id = 420
 print(total_students_id)
 
 #Decimal:
-debts_total = 44.985
+from decimal import Decimal
+debts_total = Decimal(44.98)
 print(debts_total)
 
 #Dictionary:
